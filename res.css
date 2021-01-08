@@ -1,0 +1,188 @@
+@media screen and (max-width:536px) {
+
+
+.me{
+    
+    top: 145px;
+left:0px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    font-size: 28px;
+    word-spacing: 2px;
+    color: white;
+}
+.you {
+    position: absolute;
+    top: 419px;
+  left: 0px;
+    font-size: 22px;
+}
+h6 {
+    font-size: 15px;
+
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.bottomleft {
+    height: 80px;
+    position: absolute;
+    bottom: 30px;
+    left: 360px;
+}
+
+.bottom {
+    height: 150px;
+    position: absolute;
+    bottom: 250px;
+    right: 0;
+}
+
+h3{
+    font-size: 14px;
+}
+}
+/*iphonex*/
+
+@media screen and (max-width:380px)
+{
+    .bottom {
+        height: 141px;
+        position: absolute;
+        bottom: 400px;
+        right: 0;
+    }
+
+    h3{
+        font-size: 14px;
+    }
+    .bottomleft {
+        height: 80px;
+        position: absolute;
+        bottom: 75px;
+        left: 118px;
+    }
+}
+
+/*Samsung Galexy  Note3*/
+@media screen and (max-width:361px){
+
+    .bottom {
+        height: 121px;
+        position: absolute;
+        bottom: 312px;
+        right: 0;
+    }
+
+    .you {
+        position: absolute;
+        top: 320px;
+        left: 0px;
+        font-size: 22px;
+    }
+
+
+    h3{
+        font-size: 14px;
+    }
+    .bottomleft {
+        height: 80px;
+        position: absolute;
+        bottom: 40px;
+        left: 118px;
+    }
+
+
+}
+/*samsung note3 and s5  moto g4 */
+@media screen and (max-width:412px)
+{
+    .bottom {
+        height: 93px;
+        position: absolute;
+        bottom: 377px;
+        right: 20px;
+    }
+
+    .you {
+        position: absolute;
+        top: 320px;
+        left: 0px;
+        font-size: 22px;
+    }
+
+
+    h3{
+        font-size: 14px;
+    }
+    .bottomleft {
+        height: 80px;
+        position: absolute;
+        bottom: 50px;
+        left: 118px;
+    }
+}
+
+
+
+#c1 ,#c2 ,#c3 ,#c4{
+
+    font-size: 35px;
+    color: white;
+}
+
+#c1{
+
+animation: c1 1.5s infinite alternate  ;
+
+}
+#c2{
+
+    animation: c2 1.5s infinite alternate;
+
+    }
+#c3{
+
+    animation: c3 1.5s infinite alternate ;
+  
+    }
+#c4{
+
+    animation: c4 1.5s infinite alternate;
+
+    }
+
+@keyframes c1{
+
+0% {color: red; font-size: large;}
+50%{color: yellow;}
+
+100%{color:green;}
+}
+@keyframes c2{
+
+  
+    0%{color: yellow;}
+    50%{color:green; font-size: large;}
+    
+    100% {color: red;}
+}
+@keyframes c3{
+
+
+    0%{color:green;}
+    50% {color: red;}
+    100%{color: yellow;font-size: large;}
+}
+@keyframes c4{
+
+
+
+
+   
+    0% {color: red;font-size: large;}
+    50%{color: yellow;}
+    100%{color:green;}
+}
